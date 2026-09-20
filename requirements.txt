@@ -1,0 +1,2 @@
+# Phase 1 intentionally uses only the Python standard library.
+# Add pinned medical-imaging dependencies only after checking the official image.

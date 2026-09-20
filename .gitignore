@@ -1,0 +1,57 @@
+# Local analysis and tool scratch space
+.codex-temp/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Competition data and generated results must never enter Git
+data/
+datasets/
+annotation/
+answer/
+logs/
+outputs/
+predictions/
+checkpoints/
+artifacts/
+
+# Model weights and medical images
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+
+# Archives and container images
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Secrets and credentials
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
