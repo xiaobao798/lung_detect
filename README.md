@@ -103,3 +103,7 @@ bash /2026aicompetition/workspace/common/lung-ai/scripts/start.sh
 6. 冻结镜像并正式提交。
 
 详细规范核对见 [docs/official-spec-audit.md](docs/official-spec-audit.md)。
+
+无法在可信环境使用 Codex 时，请按照
+[docs/trusted-environment-runbook.md](docs/trusted-environment-runbook.md)
+运行只读检查脚本。脚本不会读取影像或标签内容，也不会记录患者、检查和序列目录名。
